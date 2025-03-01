@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(75, 74, 74);
+    font: normal 15pt Arial, sans-serif;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column; /* Organiza os elementos em uma coluna */
+    min-height: 100vh; /* Garante que o body tenha pelo menos a altura total da janela */
+}
+
+header {
+    background-image: url('https://sm.ign.com/ign_br/screenshot/default/pokemon-draw-em-all-gen-1-7-by-ccayco-daudihc_4v6q.jpg');
+    background-size: cover;
+    background-position: center;
+    color: black;
+    padding: 20px;
+    width: 90%;
+    margin: 0px auto 0px auto;
+    border: 1px solid black;
+}
+
+section {
+    background-image: url('https://cdn.pixabay.com/photo/2016/07/23/13/21/pokemon-1536855_640.png');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    width: 90%;
+    height: auto;
+    margin: 0px auto 0px auto;
+    border: 1px solid black;
+    flex-grow: 1;
+}
+
+button {
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    margin: auto 0px auto 0px;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100px;
+}
+
+input {
+    width: 75%;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+#cardContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+h3 {
+    background-color: rgb(75, 74, 74);
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: auto;
+    width: 200px;
+}
+
+p {
+    background-color: rgb(75, 74, 74);
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: auto;
+    width: 250px;
+}
+
+h1 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 50px;
+    color: #ffcc00;
+    text-shadow: 4px 4px 0px #3466af,8px 8px 0px rgba(0, 0, 0, 0.3);
+}
